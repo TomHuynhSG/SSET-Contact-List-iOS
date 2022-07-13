@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContactCard: View {
+    var contact: Contact
+    
     var body: some View {
         
         ZStack {
@@ -40,6 +42,6 @@ struct ContactCard: View {
 
 struct ContactCard_Previews: PreviewProvider {
     static var previews: some View {
-        ContactCard()
+        ContactCard(contact: contacts[0])
     }
 }

@@ -11,31 +11,35 @@ struct ContactCard: View {
     var contact: Contact
     
     var body: some View {
-        
         ZStack {
-            ColorConstants.rmitBlue.edgesIgnoringSafeArea(.all)
-                
-            VStack {
-                MapView(coordinate: contact.locationCoordinate)
-                    .ignoresSafeArea(edges: .top)
-                    .frame(height: 300)
-                CircleImage(image: contact.image)
-                    .offset(y: -100)
-                    .padding(.bottom, -100)
-                Text(contact.name)
-                    .font(.system(size: 40))
-                    .bold()
-                .foregroundColor(.white)
-                Image("rmit").resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(height: 65)
-                    .padding(.bottom, 5)
+        ColorConstants.rmitBlue
+            .edgesIgnoringSafeArea(.bottom)
+        ScrollView {
+            
+                VStack {
+                    MapView(coordinate: contact.locationCoordinate)
+                        .edgesIgnoringSafeArea(.top)
+                        .frame(height: 300)
+                    CircleImage(image: contact.image)
+                        .offset(y: -100)
+                        .padding(.bottom, -100)
+                    Text(contact.name)
+                        .font(.system(size: 40))
+                        .bold()
+                    .foregroundColor(.white)
+                    Image("rmit").resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 65)
+                        .padding(.bottom, 5)
 
-                InfoView(text: contact.email, imageName: "envelope.fill")
-                InfoView(text: contact.phone, imageName: "phone.fill")
-                
+                    InfoView(text: contact.email, imageName: "envelope.fill")
+                    InfoView(text: contact.phone, imageName: "phone.fill")
+                    
+                }
             }
         }
+        .navigationTitle(contact.name)
+        .navigationBarTitleDisplayMode(.inline)
         
     }
 }

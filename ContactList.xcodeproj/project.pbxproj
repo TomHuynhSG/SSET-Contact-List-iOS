@@ -19,6 +19,7 @@
 		6B5894D0287F1B4000565957 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894CF287F1B4000565957 /* ModelData.swift */; };
 		6B5894D2287F1C3800565957 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894D1287F1C3800565957 /* ContactList.swift */; };
 		6B5894D4287F1C5C00565957 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894D3287F1C5C00565957 /* ContactRow.swift */; };
+		6B5894D6287F202800565957 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894D5287F202700565957 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		6B5894CF287F1B4000565957 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		6B5894D1287F1C3800565957 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		6B5894D3287F1C5C00565957 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		6B5894D5287F202700565957 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				6B5894C2287F149800565957 /* ColorConstants.swift */,
 				6B5894C4287F14DF00565957 /* InfoView.swift */,
 				6B5894C6287F153000565957 /* ContactCard.swift */,
+				6B5894D5287F202700565957 /* CircleImage.swift */,
 				6B5894CD287F1A4400565957 /* Contact.swift */,
 				6B5894CF287F1B4000565957 /* ModelData.swift */,
 				6B5894D1287F1C3800565957 /* ContactList.swift */,
@@ -169,6 +172,7 @@
 				6B5894B7287F144600565957 /* ContentView.swift in Sources */,
 				6B5894D0287F1B4000565957 /* ModelData.swift in Sources */,
 				6B5894D2287F1C3800565957 /* ContactList.swift in Sources */,
+				6B5894D6287F202800565957 /* CircleImage.swift in Sources */,
 				6B5894B5287F144600565957 /* ContactListApp.swift in Sources */,
 				6B5894CE287F1A4400565957 /* Contact.swift in Sources */,
 			);

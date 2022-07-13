@@ -9,11 +9,19 @@ import SwiftUI
 
 struct ContactList: View {
     var body: some View {
-        List(contacts){
-            contact in
-            ContactRow(contact: contact)
-            
+        NavigationView {
+            List(contacts){
+                contact in
+                NavigationLink{
+                    ContactCard()
+                } label: {
+                    ContactRow(contact: contact)
+                }
+                .navigationTitle("Contact List")
+                
+            }
         }
+        
     }
 }
 

@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ContactList: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ContactRow(contact: contacts[0])
+            ContactRow(contact: contacts[1])
+        }
     }
 }
 

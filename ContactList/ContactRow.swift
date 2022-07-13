@@ -22,6 +22,11 @@ struct ContactRow: View {
 
 struct ContactRow_Previews: PreviewProvider {
     static var previews: some View {
-        ContactRow(contact: contacts[0])
+        Group {
+            ContactRow(contact: contacts[0])
+                .previewLayout(.fixed(width: 300, height: 70))
+            ContactRow(contact: contacts[1])
+                .previewLayout(.fixed(width: 300, height: 70))
+        }
     }
 }

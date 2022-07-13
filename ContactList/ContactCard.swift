@@ -25,15 +25,15 @@ struct ContactCard: View {
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color(.white),lineWidth: 5))
                 Text("Tom Huynh")
-                    .font(Font.custom("Pacifico-Regular", size: 40))
+                    .font(.system(size: 40))
                     .bold()
                 .foregroundColor(.white)
-                Text("iOS Developer")
+                Text("RMIT Lecturer")
                     .foregroundColor(.white)
                     .font(.system(size: 25))
                 Divider()
-                InfoView(text: "+84 123 456 789", imageName: "phone.fill")
                 InfoView(text: "tom.huynh@rmit.edu.vn", imageName: "envelope.fill")
+                InfoView(text: "+84 123 456 789", imageName: "phone.fill")
             }
         }
         

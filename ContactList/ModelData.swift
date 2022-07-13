@@ -8,7 +8,7 @@
 import Foundation
 
 var contacts: [Contact] = [
-    Contact(name: "Tom", phone: "12345678", imageName: "tom"),
-    Contact(name: "Tom", phone: "12345678", imageName: "tom"),
-    Contact(name: "Tom", phone: "12345678", imageName: "tom")
+    Contact(name: "Tom", phone: "123456784", imageName: "tom"),
+    Contact(name: "Tom", phone: "123456782", imageName: "tom"),
+    Contact(name: "Tom", phone: "123456781", imageName: "tom")
 ]

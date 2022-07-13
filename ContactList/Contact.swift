@@ -8,7 +8,10 @@
 import Foundation
 import SwiftUI
 
-struct Contact {
+struct Contact: Identifiable{
+    var id: Int {
+        Int(phone)!
+    }
     var name: String
     var phone: String
 

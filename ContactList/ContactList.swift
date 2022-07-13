@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContactList: View {
     var body: some View {
-        List {
-            ContactRow(contact: contacts[0])
-            ContactRow(contact: contacts[1])
+        List(contacts){
+            contact in
+            ContactRow(contact: contact)
+            
         }
     }
 }

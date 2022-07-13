@@ -14,6 +14,7 @@
 		6B5894C3287F149800565957 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894C2287F149800565957 /* ColorConstants.swift */; };
 		6B5894C5287F14DF00565957 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894C4287F14DF00565957 /* InfoView.swift */; };
 		6B5894C7287F153000565957 /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894C6287F153000565957 /* ContactCard.swift */; };
+		6B5894CC287F176E00565957 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894CB287F176E00565957 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6B5894C2287F149800565957 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		6B5894C4287F14DF00565957 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		6B5894C6287F153000565957 /* ContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
+		6B5894CB287F176E00565957 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				6B5894C2287F149800565957 /* ColorConstants.swift */,
 				6B5894C4287F14DF00565957 /* InfoView.swift */,
 				6B5894C6287F153000565957 /* ContactCard.swift */,
+				6B5894CB287F176E00565957 /* MapView.swift */,
 				6B5894B8287F144800565957 /* Assets.xcassets */,
 				6B5894BA287F144800565957 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B5894C5287F14DF00565957 /* InfoView.swift in Sources */,
+				6B5894CC287F176E00565957 /* MapView.swift in Sources */,
 				6B5894C7287F153000565957 /* ContactCard.swift in Sources */,
 				6B5894C3287F149800565957 /* ColorConstants.swift in Sources */,
 				6B5894B7287F144600565957 /* ContentView.swift in Sources */,

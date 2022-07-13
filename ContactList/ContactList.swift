@@ -13,7 +13,7 @@ struct ContactList: View {
             List(contacts){
                 contact in
                 NavigationLink{
-                    ContactCard()
+                    ContactCard(contact: contact)
                 } label: {
                     ContactRow(contact: contact)
                 }

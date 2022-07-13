@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import CoreLocation
 struct ContactCard: View {
     var contact: Contact
     
@@ -16,13 +16,13 @@ struct ContactCard: View {
             ColorConstants.rmitBlue.edgesIgnoringSafeArea(.all)
                 
             VStack {
-                MapView()
+                MapView(coordinate: contact.locationCoordinate)
                     .ignoresSafeArea(edges: .top)
                     .frame(height: 300)
-                CircleImage(image: contacts[0].image)
+                CircleImage(image: contact.image)
                     .offset(y: -100)
                     .padding(.bottom, -100)
-                Text("Tom Huynh")
+                Text(contact.name)
                     .font(.system(size: 40))
                     .bold()
                 .foregroundColor(.white)
@@ -31,8 +31,8 @@ struct ContactCard: View {
                     .frame(height: 65)
                     .padding(.bottom, 5)
 
-                InfoView(text: "tom.huynh@rmit.edu.vn", imageName: "envelope.fill")
-                InfoView(text: "+84 123 456 789", imageName: "phone.fill")
+                InfoView(text: contact.email, imageName: "envelope.fill")
+                InfoView(text: contact.phone, imageName: "phone.fill")
                 
             }
         }

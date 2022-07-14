@@ -10,9 +10,7 @@ import SwiftUI
 import CoreLocation
 
 struct Contact: Identifiable{
-    var id: Int {
-        Int(phone)!
-    }
+    var id = UUID()
     var name: String
     var email: String
     var phone: String

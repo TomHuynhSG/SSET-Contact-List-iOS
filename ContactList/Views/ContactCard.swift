@@ -13,7 +13,7 @@ struct ContactCard: View {
     var body: some View {
         ZStack {
         ColorConstants.rmitBlue
-            .edgesIgnoringSafeArea(.all)
+            .edgesIgnoringSafeArea(.bottom)
         ScrollView {
             
                 VStack {

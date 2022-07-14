@@ -22,11 +22,11 @@ Note: there is another branch "no-map" which is the simplifed version of the con
 <table>
   <tr>
     <td>Full Version</td>
-     <td>Lite Version(No Map)</td>
+     <td>Lite Version (No Map)</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/TomHuynhSG/SSETContactList/blob/main/screenshots/full-version-demo.gif?raw=true" width="230"></td>
-    <td><img src="https://github.com/TomHuynhSG/SSETContactList/blob/main/screenshots/no-map-demo.gif?raw=true" width="230"></td>
+    <td><img src="https://github.com/TomHuynhSG/SSETContactList/blob/main/screenshots/full-version-demo.gif?raw=true" width="280"></td>
+    <td><img src="https://github.com/TomHuynhSG/SSETContactList/blob/main/screenshots/no-map-demo.gif?raw=true" width="280"></td>
    </tr>
 
  </table>

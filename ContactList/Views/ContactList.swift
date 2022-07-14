@@ -17,8 +17,7 @@ struct ContactList: View {
                 } label: {
                     ContactRow(contact: contact)
                 }
-                .navigationTitle("Contact List")
-                
+                .navigationTitle("🏢 Contact List")
             }
         }
         

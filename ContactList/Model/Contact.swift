@@ -21,13 +21,6 @@ struct Contact: Identifiable{
     var image: Image {
         Image(imageName)
     }
-//
-//    struct Coordinates: Hashable, Codable {
-//        var latitude: Double
-//        var longitude: Double
-//    }
-//
-//    private var coordinates: Coordinates
     
     var locationCoordinate: CLLocationCoordinate2D
 }

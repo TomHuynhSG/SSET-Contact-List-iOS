@@ -15,13 +15,6 @@ struct CircleImage: View {
             .clipShape(Circle())
             .overlay(Circle().stroke(Color(.white),lineWidth: 4))
             .shadow(radius: 7)
-//            .resizable()
-//            .aspectRatio(contentMode: .fit)
-//            .frame(width: 200, height: 200)
-//            .offset(y: -110)
-//            .padding(.bottom, -110)
-
-
     }
 }
 

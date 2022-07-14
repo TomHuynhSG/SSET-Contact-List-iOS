@@ -50,6 +50,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B155E852880631A00CA6E5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B5894CD287F1A4400565957 /* Contact.swift */,
+				6B5894CF287F1B4000565957 /* ModelData.swift */,
+				6B5894C2287F149800565957 /* ColorConstants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B155E862880633E00CA6E5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B5894B6287F144600565957 /* ContentView.swift */,
+				6B5894D5287F202700565957 /* CircleImage.swift */,
+				6B5894CB287F176E00565957 /* MapView.swift */,
+				6B5894C4287F14DF00565957 /* InfoView.swift */,
+				6B5894C6287F153000565957 /* ContactCard.swift */,
+				6B5894D1287F1C3800565957 /* ContactList.swift */,
+				6B5894D3287F1C5C00565957 /* ContactRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6B5894A8287F144600565957 = {
 			isa = PBXGroup;
 			children = (
@@ -70,16 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				6B5894B4287F144600565957 /* ContactListApp.swift */,
-				6B5894B6287F144600565957 /* ContentView.swift */,
-				6B5894C2287F149800565957 /* ColorConstants.swift */,
-				6B5894C4287F14DF00565957 /* InfoView.swift */,
-				6B5894C6287F153000565957 /* ContactCard.swift */,
-				6B5894D5287F202700565957 /* CircleImage.swift */,
-				6B5894CD287F1A4400565957 /* Contact.swift */,
-				6B5894CF287F1B4000565957 /* ModelData.swift */,
-				6B5894D1287F1C3800565957 /* ContactList.swift */,
-				6B5894D3287F1C5C00565957 /* ContactRow.swift */,
-				6B5894CB287F176E00565957 /* MapView.swift */,
+				6B155E862880633E00CA6E5C /* Views */,
+				6B155E852880631A00CA6E5C /* Model */,
 				6B5894B8287F144800565957 /* Assets.xcassets */,
 				6B5894BA287F144800565957 /* Preview Content */,
 			);

@@ -17,7 +17,7 @@
 
 Note: there is another branch "no-map" which is the simplifed version of the contact list contains no map feature for people who are not interested in the map feature.
 
-### Live Demo (Animation GIF)
+## 🔮 Live Demo (Animation GIF)
 
 <table>
   <tr>

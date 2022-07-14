@@ -28,7 +28,9 @@ struct InfoView: View {
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView(text: "Hello", imageName: "phone.fill")
+        InfoView(text: "123456789", imageName: "phone.fill")
+            .previewLayout(.sizeThatFits)
+        InfoView(text: "email@gmail.com", imageName: "envelope.fill")
             .previewLayout(.sizeThatFits)
     }
 }

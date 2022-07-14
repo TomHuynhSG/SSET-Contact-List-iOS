@@ -12,7 +12,7 @@ struct ContactCard: View {
     var body: some View {
         ZStack {
         ColorConstants.rmitBlue
-            .edgesIgnoringSafeArea(.bottom)
+            .edgesIgnoringSafeArea(.all)
   
                 VStack {
                     CircleImage(image: contact.image)

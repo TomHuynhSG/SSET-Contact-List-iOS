@@ -20,7 +20,7 @@ Note: there is another branch "no-map" which is the simplifed version of the con
 ## 🔧 Build Information
 - Xcode 13.4.1
 - SwiftUI Framework
-- Target Deployment iOS >=14.0
+- Target Deployment iOS >=15.5
 - Library: CoreLocation for the MapKit
 
 ## 🏆 Author

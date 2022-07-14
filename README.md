@@ -7,7 +7,7 @@
 
 <p align="center">"The Contact List is Long, The Circle is Small!"</p>
 
-## 💰Description
+## 👥Description
 
 - This is an iOS application, inspired from the traditional phone book!
 - It contains the easy and simple ways to contact SSET Lecturers.

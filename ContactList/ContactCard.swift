@@ -19,7 +19,7 @@ struct ContactCard: View {
                 VStack {
                     MapView(coordinate: contact.locationCoordinate)
                         .edgesIgnoringSafeArea(.top)
-                        .frame(height: 300)
+                        .frame(height: 250)
                     CircleImage(image: contact.image)
                         .offset(y: -100)
                         .padding(.bottom, -100)
@@ -27,7 +27,7 @@ struct ContactCard: View {
                         .font(.system(size: 40))
                         .bold()
                     .foregroundColor(.white)
-                    Image("rmit").resizable()
+                    Image("rmit-logo-white").resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(height: 65)
                         .padding(.bottom, 5)

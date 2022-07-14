@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "tom-2.jpeg",
+      "filename" : "minh-dinh.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "tom-3.jpeg",
+      "filename" : "minh-dinh@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "tom-4.jpeg",
+      "filename" : "minh-dinh@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

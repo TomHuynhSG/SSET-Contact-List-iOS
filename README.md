@@ -17,6 +17,20 @@
 
 Note: there is another branch "no-map" which is the simplifed version of the contact list contains no map feature for people who are not interested in the map feature.
 
+### Live Demo (Animation GIF)
+
+<table>
+  <tr>
+    <td>Full Version</td>
+     <td>Lite Version(No Map)</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/TomHuynhSG/SSETContactList/blob/main/screenshots/full-version-demo.gif?raw=true" width="230"></td>
+    <td><img src="https://github.com/TomHuynhSG/SSETContactList/blob/main/screenshots/no-map-demo.gif?raw=true" width="230"></td>
+   </tr>
+
+ </table>
+
 ## 🔧 Build Information
 - Xcode 13.4.1
 - SwiftUI Framework

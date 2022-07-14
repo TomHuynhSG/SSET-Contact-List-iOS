@@ -7,7 +7,6 @@
 
 import Foundation
 import SwiftUI
-import CoreLocation
 
 struct Contact: Identifiable{
     var id = UUID()
@@ -20,5 +19,4 @@ struct Contact: Identifiable{
         Image(imageName)
     }
     
-    var locationCoordinate: CLLocationCoordinate2D
 }

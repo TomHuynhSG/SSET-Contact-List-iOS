@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import CoreLocation
 struct ContactCard: View {
     var contact: Contact
     
@@ -14,15 +13,9 @@ struct ContactCard: View {
         ZStack {
         ColorConstants.rmitBlue
             .edgesIgnoringSafeArea(.bottom)
-        ScrollView {
-            
+  
                 VStack {
-                    MapView(coordinate: contact.locationCoordinate)
-                        .edgesIgnoringSafeArea(.top)
-                        .frame(height: 250)
                     CircleImage(image: contact.image)
-                        .offset(y: -100)
-                        .padding(.bottom, -100)
                     Text(contact.name)
                         .font(.system(size: 40))
                         .bold()
@@ -36,7 +29,6 @@ struct ContactCard: View {
                     InfoView(text: contact.phone, imageName: "phone.fill")
                     
                 }
-            }
         }
         .navigationTitle(contact.name)
         .navigationBarTitleDisplayMode(.inline)

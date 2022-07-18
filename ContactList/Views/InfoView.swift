@@ -28,6 +28,14 @@ struct InfoView: View {
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
+        ZStack {
+            ColorConstants.rmitBlue
+                .edgesIgnoringSafeArea(.all)
+            VStack{
+                InfoView(text: "123456789", imageName: "phone.fill")
+                InfoView(text: "email@gmail.com", imageName: "envelope.fill")
+            }
+        }
         InfoView(text: "123456789", imageName: "phone.fill")
             .previewLayout(.sizeThatFits)
         InfoView(text: "email@gmail.com", imageName: "envelope.fill")

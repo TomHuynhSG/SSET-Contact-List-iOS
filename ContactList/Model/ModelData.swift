@@ -26,3 +26,5 @@ func decodeJsonFromJsonFile(jsonFileName: String) -> [Contact] {
     }
     return [ ] as [Contact]
 }
+
+

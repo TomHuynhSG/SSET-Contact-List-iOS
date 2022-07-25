@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct Contact: Identifiable, Codable {
-    var id = UUID()
+    var id: Int
     var name: String
     var email: String
     var phone: String
@@ -18,7 +18,6 @@ struct Contact: Identifiable, Codable {
     var image: Image {
         Image(imageName)
     }
-    
 }
 
 

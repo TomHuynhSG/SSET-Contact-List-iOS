@@ -38,7 +38,6 @@ struct ContactCard: View {
                 }
             }
         }
-        .navigationTitle(contact.name)
         .navigationBarTitleDisplayMode(.inline)
         
     }

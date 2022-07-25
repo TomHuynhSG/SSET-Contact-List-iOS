@@ -10,7 +10,7 @@ import SwiftUI
 import CoreLocation
 
 struct Contact: Identifiable, Codable{
-    var id = UUID()
+    var id: Int
     var name: String
     var email: String
     var phone: String
@@ -34,3 +34,4 @@ struct Coordinates: Codable {
     var latitude: Double
     var longitude: Double
 }
+

@@ -60,9 +60,9 @@ struct GreetingView: View {
         }
     }
 }
-//
-//struct GreetingView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        GreetingView()
-//    }
-//}
+
+struct GreetingView_Previews: PreviewProvider {
+    static var previews: some View {
+        GreetingView(active: .constant(true))
+    }
+}

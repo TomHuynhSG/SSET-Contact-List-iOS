@@ -21,6 +21,7 @@
 		6B5894D2287F1C3800565957 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894D1287F1C3800565957 /* ContactList.swift */; };
 		6B5894D4287F1C5C00565957 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894D3287F1C5C00565957 /* ContactRow.swift */; };
 		6B5894D6287F202800565957 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894D5287F202700565957 /* CircleImage.swift */; };
+		6B987DE8288F9DD400454E96 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B987DE7288F9DD400454E96 /* GreetingView.swift */; };
 		6B998150288EC671001B1AC5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B99814F288EC671001B1AC5 /* WelcomeView.swift */; };
 		6B998152288ECA20001B1AC5 /* CircleLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B998151288ECA20001B1AC5 /* CircleLayerView.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		6B5894D1287F1C3800565957 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		6B5894D3287F1C5C00565957 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 		6B5894D5287F202700565957 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		6B987DE7288F9DD400454E96 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
 		6B99814F288EC671001B1AC5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		6B998151288ECA20001B1AC5 /* CircleLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				6B99814F288EC671001B1AC5 /* WelcomeView.swift */,
+				6B987DE7288F9DD400454E96 /* GreetingView.swift */,
 				6B998151288ECA20001B1AC5 /* CircleLayerView.swift */,
 			);
 			path = Welcome;
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B5894C5287F14DF00565957 /* InfoView.swift in Sources */,
+				6B987DE8288F9DD400454E96 /* GreetingView.swift in Sources */,
 				6B5894D4287F1C5C00565957 /* ContactRow.swift in Sources */,
 				6B5894CC287F176E00565957 /* MapView.swift in Sources */,
 				6B5894C7287F153000565957 /* ContactCard.swift in Sources */,

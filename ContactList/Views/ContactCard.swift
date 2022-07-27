@@ -32,8 +32,8 @@ struct ContactCard: View {
                         .frame(height: 65)
                         .padding(.bottom, 5)
 
-                    InfoView(text: contact.email, imageName: "envelope.fill")
-                    InfoView(text: contact.phone, imageName: "phone.fill")
+                    InfoView(text: contact.email, url:"mailto:\(contact.email)" , imageName: "envelope.fill")
+                    InfoView(text: contact.phone, url:"tel:\(contact.phone)", imageName: "phone.fill")
                     
                 }
             }

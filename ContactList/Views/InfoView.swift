@@ -10,6 +10,7 @@ import SwiftUI
 struct InfoView: View {
     
     let text: String
+    let url: String
     let imageName: String
     
     var body: some View {
@@ -19,8 +20,11 @@ struct InfoView: View {
             .overlay(HStack {
                 Image(systemName: imageName)
                     .foregroundColor(ColorConstants.rmitRed)
-                Text(text)
-                    .foregroundColor(.black)
+                Link(destination: URL(string: url)!) {
+                    Text(text)
+                        .foregroundColor(.black)
+                }
+                
             })
             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
@@ -32,13 +36,13 @@ struct InfoView_Previews: PreviewProvider {
             ColorConstants.rmitBlue
                 .edgesIgnoringSafeArea(.all)
             VStack{
-                InfoView(text: "123456789", imageName: "phone.fill")
-                InfoView(text: "email@gmail.com", imageName: "envelope.fill")
+                InfoView(text: "123456789", url: "tel:123456789", imageName: "phone.fill")
+                InfoView(text: "email@gmail.com", url: "mailto:email@gmail.com", imageName: "envelope.fill")
             }
         }
-        InfoView(text: "123456789", imageName: "phone.fill")
+        InfoView(text: "123456789", url: "tel:123456789", imageName: "phone.fill")
             .previewLayout(.sizeThatFits)
-        InfoView(text: "email@gmail.com", imageName: "envelope.fill")
+        InfoView(text: "email@gmail.com", url: "mailto:email@gmail.com", imageName: "envelope.fill")
             .previewLayout(.sizeThatFits)
     }
 }

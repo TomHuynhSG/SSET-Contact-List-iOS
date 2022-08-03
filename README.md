@@ -13,7 +13,12 @@
 - It contains the easy and simple ways to contact SSET Lecturers.
 - The email and phone are dummy data which is just for the purpose of demonstration!
 
-<img src="https://i.imgur.com/pKrM1Hq.png" width="238" > <img src="https://i.imgur.com/fUnVWV4.png" width="238" > <img src="https://i.imgur.com/2nkYjyf.png" width="239" >
+<p align="center">
+  <img src="https://i.imgur.com/tyRPWoU.png" width="238" > 
+  <img src="https://i.imgur.com/pKrM1Hq.png" width="238" > 
+  <img src="https://i.imgur.com/fUnVWV4.png" width="238" > 
+  <img src="https://i.imgur.com/2nkYjyf.png" width="239" >
+</p>
 
 Note: there is another branch "no-map" which is the simplifed version of the contact list contains no map feature for people who are not interested in the map feature.
 
@@ -21,9 +26,9 @@ Note: there is another branch "no-map" which is the simplifed version of the con
 
 <table>
   <tr>
-     <td>Map + Welcome Page</td>
-     <td>Map - Wecome Page</td>
-     <td>No Map - Wecome Page</td>
+     <td>Map with Welcome Page</td>
+     <td>Map without Wecome Page</td>
+     <td>No Map without Wecome Page</td>
   </tr>
   <tr>
     <td><img src="https://github.com/TomHuynhSG/SSETContactList/blob/main/screenshots/welcome-page.gif?raw=true" width="245"></td>

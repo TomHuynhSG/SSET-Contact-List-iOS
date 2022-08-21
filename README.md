@@ -45,4 +45,4 @@ Note: there is another branch "no-map" which is the simplifed version of the con
 - Library: CoreLocation for the MapKit
 
 ## 🏆 Author
-- Huynh Nguyen Minh Thong - tomhuynhsg@gmail.com
+- Huynh Nguyen Minh Thong (Tom Huynh) - tomhuynhsg@gmail.com

@@ -11,7 +11,7 @@ struct ContactCard: View {
     
     var body: some View {
         ZStack {
-        ColorConstants.rmitBlue
+            Color("rmit-blue")
             .edgesIgnoringSafeArea(.all)
   
                 VStack {

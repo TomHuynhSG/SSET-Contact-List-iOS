@@ -12,10 +12,10 @@ struct ContactCard: View {
     
     var body: some View {
         ZStack {
-        ColorConstants.rmitBlue
-            .edgesIgnoringSafeArea(.bottom)
-        ScrollView {
-            
+            Color("rmit-blue")
+                .edgesIgnoringSafeArea(.bottom)
+            ScrollView {
+                
                 VStack {
                     MapView(coordinate: contact.locationCoordinate)
                         .edgesIgnoringSafeArea(.top)
@@ -26,12 +26,12 @@ struct ContactCard: View {
                     Text(contact.name)
                         .font(.system(size: 40))
                         .bold()
-                    .foregroundColor(.white)
+                        .foregroundColor(.white)
                     Image("rmit-logo-white").resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(height: 65)
                         .padding(.bottom, 5)
-
+                    
                     InfoView(text: contact.email, imageName: "envelope.fill")
                     InfoView(text: contact.phone, imageName: "phone.fill")
                     

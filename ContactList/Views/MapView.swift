@@ -12,7 +12,7 @@ struct MapView: View {
     var coordinate: CLLocationCoordinate2D
     
     @State private var region = MKCoordinateRegion()
-
+    
     var body: some View {
         Map(coordinateRegion: $region)
             .onAppear {

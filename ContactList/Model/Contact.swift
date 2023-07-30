@@ -14,7 +14,7 @@ struct Contact: Identifiable{
     var name: String
     var email: String
     var phone: String
-
+    
     var imageName: String
     var image: Image {
         Image(imageName)

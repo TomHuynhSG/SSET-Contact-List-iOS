@@ -19,7 +19,7 @@ struct InfoView: View {
             .frame(height: 50.0)
             .overlay(HStack {
                 Image(systemName: imageName)
-                    .foregroundColor(ColorConstants.rmitRed)
+                    .foregroundColor(Color("rmit-red"))
                 Link(destination: URL(string: url)!) {
                     Text(text)
                         .foregroundColor(.black)
@@ -33,7 +33,7 @@ struct InfoView: View {
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            ColorConstants.rmitBlue
+            Color("rmit-blue")
                 .edgesIgnoringSafeArea(.all)
             VStack{
                 InfoView(text: "123456789", url: "tel:123456789", imageName: "phone.fill")

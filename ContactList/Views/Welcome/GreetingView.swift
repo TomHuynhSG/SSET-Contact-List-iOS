@@ -11,7 +11,7 @@ struct GreetingView: View {
     @Binding var active: Bool
     var body: some View {
         ZStack{
-            ColorConstants.rmitBlue.ignoresSafeArea(.all, edges: .all)
+            Color("rmit-blue").ignoresSafeArea(.all, edges: .all)
             
             VStack(spacing: 20){
                 Spacer()
